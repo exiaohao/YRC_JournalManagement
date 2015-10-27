@@ -8,7 +8,9 @@ var connection = mysql.createConnection({
   password : 'nfSRXE9e7Q9XVT98',
   database	   : 'jms'
 });
-
+//Add Static Directory
+app.use('/assets', express.static(__dirname+'/assets'));
+//
 app.get('/', function (req, res) {
 	res.sendfile('homepage.html');
 });
