@@ -8,6 +8,7 @@ var statichtml =
 
 function loadQueries(type, qstr)
 {
+	$("#journal-list").html("");
 	if(qstr === "")
 	{
 		//go init state
