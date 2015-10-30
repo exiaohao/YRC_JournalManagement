@@ -1,0 +1,1081 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'forever',
+1 verbose cli   '-g' ]
+2 info using npm@1.2.21
+3 info using node@v0.11.2
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'forever', null ]
+7 verbose cache add name=undefined spec="forever" args=["forever",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'forever',
+8 verbose parsed url   path: 'forever',
+8 verbose parsed url   href: 'forever' }
+9 silly lockFile e07f8c4a-forever forever
+10 verbose lock forever /home/martin/.npm/e07f8c4a-forever.lock
+11 silly lockFile e07f8c4a-forever forever
+12 silly lockFile e07f8c4a-forever forever
+13 verbose addNamed [ 'forever', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile 28ef027b-forever forever@
+16 verbose lock forever@ /home/martin/.npm/28ef027b-forever.lock
+17 silly addNameRange { name: 'forever', range: '', hasData: false }
+18 verbose url raw forever
+19 verbose url resolving [ 'https://registry.npmjs.org/', './forever' ]
+20 verbose url resolved https://registry.npmjs.org/forever
+21 info trying registry request attempt 1 at 10:14:51
+22 verbose etag "AIQ4KWNFYM4TM081MHQHR70E0"
+23 http GET https://registry.npmjs.org/forever
+24 http 200 https://registry.npmjs.org/forever
+25 silly registry.get cb [ 200,
+25 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly registry.get     etag: '"AMHWWBR1Q9A33N3MNICW5XDQY"',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     'cache-control': 'max-age=60',
+25 silly registry.get     'content-length': '83173',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     date: 'Thu, 29 Oct 2015 02:18:56 GMT',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     age: '0',
+25 silly registry.get     connection: 'keep-alive',
+25 silly registry.get     'x-served-by': 'cache-itm7426-ITM',
+25 silly registry.get     'x-cache': 'HIT',
+25 silly registry.get     'x-cache-hits': '1',
+25 silly registry.get     'x-timer': 'S1446085136.065286,VS0,VE160',
+25 silly registry.get     vary: 'Accept' } ]
+26 silly addNameRange number 2 { name: 'forever', range: '', hasData: true }
+27 silly addNameRange versions [ 'forever',
+27 silly addNameRange   [ '0.6.0',
+27 silly addNameRange     '0.6.1',
+27 silly addNameRange     '0.6.2',
+27 silly addNameRange     '0.6.3',
+27 silly addNameRange     '0.6.4',
+27 silly addNameRange     '0.6.5',
+27 silly addNameRange     '0.6.6',
+27 silly addNameRange     '0.6.7',
+27 silly addNameRange     '0.6.8',
+27 silly addNameRange     '0.6.9',
+27 silly addNameRange     '0.7.0',
+27 silly addNameRange     '0.7.1',
+27 silly addNameRange     '0.7.2',
+27 silly addNameRange     '0.7.3',
+27 silly addNameRange     '0.7.4',
+27 silly addNameRange     '0.7.5',
+27 silly addNameRange     '0.8.0',
+27 silly addNameRange     '0.8.1',
+27 silly addNameRange     '0.8.2',
+27 silly addNameRange     '0.8.3',
+27 silly addNameRange     '0.8.4',
+27 silly addNameRange     '0.8.5',
+27 silly addNameRange     '0.9.0',
+27 silly addNameRange     '0.9.1',
+27 silly addNameRange     '0.9.2',
+27 silly addNameRange     '0.10.0',
+27 silly addNameRange     '0.10.5',
+27 silly addNameRange     '0.10.6',
+27 silly addNameRange     '0.10.7',
+27 silly addNameRange     '0.10.8',
+27 silly addNameRange     '0.10.9',
+27 silly addNameRange     '0.10.10',
+27 silly addNameRange     '0.10.11',
+27 silly addNameRange     '0.11.0',
+27 silly addNameRange     '0.11.1',
+27 silly addNameRange     '0.12.0',
+27 silly addNameRange     '0.13.0',
+27 silly addNameRange     '0.14.1',
+27 silly addNameRange     '0.14.2',
+27 silly addNameRange     '0.15.0',
+27 silly addNameRange     '0.15.1' ] ]
+28 verbose addNamed [ 'forever', '0.15.1' ]
+29 verbose addNamed [ '0.15.1', '0.15.1' ]
+30 silly lockFile dc7fb2a6-forever-0-15-1 forever@0.15.1
+31 verbose lock forever@0.15.1 /home/martin/.npm/dc7fb2a6-forever-0-15-1.lock
+32 verbose read json /home/martin/.npm/forever/0.15.1/package/package.json
+33 silly lockFile dc7fb2a6-forever-0-15-1 forever@0.15.1
+34 silly lockFile dc7fb2a6-forever-0-15-1 forever@0.15.1
+35 silly lockFile 28ef027b-forever forever@
+36 silly lockFile 28ef027b-forever forever@
+37 silly resolved [ { name: 'forever',
+37 silly resolved     preferGlobal: 'true',
+37 silly resolved     description: 'A simple CLI tool for ensuring that a given node script runs continuously (i.e. forever)',
+37 silly resolved     version: '0.15.1',
+37 silly resolved     author: { name: 'Charlie Robbins', email: 'charlie.robbins@gmail.com' },
+37 silly resolved     maintainers: [ [Object], [Object] ],
+37 silly resolved     repository: { type: 'git', url: 'http://github.com/nodejitsu/forever.git' },
+37 silly resolved     keywords: [ 'cli', 'fault tolerant', 'sysadmin', 'tools' ],
+37 silly resolved     dependencies:
+37 silly resolved      { cliff: '~0.1.9',
+37 silly resolved        clone: '^1.0.2',
+37 silly resolved        colors: '~0.6.2',
+37 silly resolved        flatiron: '~0.4.2',
+37 silly resolved        'forever-monitor': '~1.6.0',
+37 silly resolved        nconf: '~0.6.9',
+37 silly resolved        nssocket: '~0.5.1',
+37 silly resolved        'object-assign': '^3.0.0',
+37 silly resolved        optimist: '~0.6.0',
+37 silly resolved        'path-is-absolute': '~1.0.0',
+37 silly resolved        prettyjson: '^1.1.2',
+37 silly resolved        shush: '^1.0.0',
+37 silly resolved        timespan: '~2.3.0',
+37 silly resolved        utile: '~0.2.1',
+37 silly resolved        winston: '~0.8.1' },
+37 silly resolved     devDependencies:
+37 silly resolved      { broadway: '~0.3.6',
+37 silly resolved        eventemitter2: '0.4.x',
+37 silly resolved        request: '2.x.x',
+37 silly resolved        vows: '0.7.x' },
+37 silly resolved     bin: { forever: './bin/forever' },
+37 silly resolved     main: './lib/forever',
+37 silly resolved     scripts: { test: 'vows test/**/*-test.js --spec -i' },
+37 silly resolved     engines: { node: '>= 0.8.x' },
+37 silly resolved     license: 'MIT',
+37 silly resolved     readme: '# forever\n\n[![Version npm](https://img.shields.io/npm/v/forever.svg?style=flat-square)](https://www.npmjs.com/package/forever)[![npm Downloads](https://img.shields.io/npm/dm/forever.svg?style=flat-square)](https://www.npmjs.com/package/forever)[![Build Status](https://img.shields.io/travis/foreverjs/forever/master.svg?style=flat-square)](https://travis-ci.org/foreverjs/forever)[![Dependencies](https://img.shields.io/david/foreverjs/forever.svg?style=flat-square)](https://david-dm.org/foreverjs/forever)[![Inline docs](http://inch-ci.org/github/foreverjs/forever.svg?branch=master)](http://inch-ci.org/github/foreverjs/forever)\n\n[![NPM](https://nodei.co/npm/forever.png?downloads=true&downloadRank=true)](https://nodei.co/npm/forever/)\n\n\nA simple CLI tool for ensuring that a given script runs continuously (i.e. forever).\n\n## Installation\n\n``` bash\n  $ [sudo] npm install forever -g\n```\n\n**Note:** If you are using forever _programmatically_ you should install [forever-monitor][0].\n\n``` bash\n  $ cd /path/to/your/project\n  $ [sudo] npm install forever-monitor\n```\n\n## Usage\nThere are two ways to use forever: through the command line or by using forever in your code. **Note:** If you are using forever _programatically_ you should install [forever-monitor][0].\n\n### Command Line Usage\nYou can use forever to run scripts continuously (whether it is written in node.js or not).\n\n**Example**\n```\nforever start app.js\n```\n\n**Options**\n```\n  $ forever --help\n  usage: forever [action] [options] SCRIPT [script-options]\n\n  Monitors the script specified in the current process or as a daemon\n\n  actions:\n    start               Start SCRIPT as a daemon\n    stop                Stop the daemon SCRIPT by Id|Uid|Pid|Index|Script\n    stopall             Stop all running forever scripts\n    restart             Restart the daemon SCRIPT\n    restartall          Restart all running forever scripts\n    list                List all running forever scripts\n    config              Lists all forever user configuration\n    set <key> <val>     Sets the specified forever config <key>\n    clear <key>         Clears the specified forever config <key>\n    logs                Lists log files for all forever processes\n    logs <script|index> Tails the logs for <script|index>\n    columns add <col>   Adds the specified column to the output in `forever list`\n    columns rm <col>    Removed the specified column from the output in `forever list`\n    columns set <cols>  Set all columns for the output in `forever list`\n    cleanlogs           [CAREFUL] Deletes all historical forever log files\n\n  options:\n    -m  MAX          Only run the specified script MAX times\n    -l  LOGFILE      Logs the forever output to LOGFILE\n    -o  OUTFILE      Logs stdout from child script to OUTFILE\n    -e  ERRFILE      Logs stderr from child script to ERRFILE\n    -p  PATH         Base path for all forever related files (pid files, etc.)\n    -c  COMMAND      COMMAND to execute (defaults to node)\n    -a, --append     Append logs\n    -f, --fifo       Stream logs to stdout\n    -n, --number     Number of log lines to print\n    --pidFile        The pid file\n    --uid            Process uid, useful as a namespace for processes (must wrap in a string)\n                     e.g. forever start --uid "production" app.js\n                         forever stop production\n    --sourceDir      The source directory for which SCRIPT is relative to\n    --workingDir     The working directory in which SCRIPT will execute\n    --minUptime      Minimum uptime (millis) for a script to not be considered "spinning"\n    --spinSleepTime  Time to wait (millis) between launches of a spinning script.\n    --colors         --no-colors will disable output coloring\n    --plain          Disable command line colors\n    -d, --debug      Forces forever to log debug output\n    -v, --verbose    Turns on the verbose messages from Forever\n    -s, --silent     Run the child script silencing stdout and stderr\n    -w, --watch      Watch for file changes\n    --watchDirectory Top-level directory to watch from\n    --watchIgnore    To ignore pattern when watch is enabled (multiple option is allowed)\n    --killSignal     Support exit signal customization (default is SIGKILL),\n                     used for restarting script gracefully e.g. --killSignal=SIGTERM\n    -h, --help       You\'re staring at it\n\n  [Long Running Process]\n    The forever process will continue to run outputting log messages to the console.\n    ex. forever -o out.log -e err.log my-script.js\n\n  [Daemon]\n    The forever process will run as a daemon which will make the target process start\n    in the background. This is extremely useful for remote starting simple node.js scripts\n    without using nohup. It is recommended to run start with -o -l, & -e.\n    ex. forever start -l forever.log -o out.log -e err.log my-daemon.js\n        forever stop my-daemon.js\n```\n\nThere are [several examples][1] designed to test the fault tolerance of forever. Here\'s a simple usage example:\n\n``` bash\n  $ forever -m 5 examples/error-on-timer.js\n```\n\n### JSON Configuration Files\n\nIn addition to passing forever the path to a script (along with accompanying options, described above), you may also pass forever the path to a JSON file containing these options. For example, consider an application with the following file structure:\n\n```\n.\n├── forever\n│   └── development.json\n└── index.js\n\n// forever/development.json\n{\n\t// Comments are supported\n    "uid": "app",\n    "append": true,\n    "watch": true,\n    "script": "index.js",\n    "sourceDir": "/home/myuser/app"\n}\n```\n\nThis application could be started with forever, as shown below:\n\n``` bash\n$ forever start ./forever/development.json\n```\n\nAbsolute paths to such configuration files are also supported:\n\n``` bash\n$ forever start /home/myuser/app/forever/development.json\n```\n\n**Note:** Forever parses JSON configuration files using [shush](https://github.com/krakenjs/shush), allowing the use of in-line comments within such files.\n\n#### Multi-App Configuration Files\n\nJSON configuration files can also be used to define the startup options for *multiple* applications, as shown below.\n\n```\n[\n  {\n    // App1\n    "uid": "app1",\n    "append": true,\n    "watch": true,\n    "script": "index.js",\n    "sourceDir": "/home/myuser/app1"\n  },\n  {\n    // App2\n    "uid": "app2",\n    "append": true,\n    "watch": true,\n    "script": "index.js",\n    "sourceDir": "/home/myuser/app2",\n    "args": ["--port", "8081"]\n  }\n]\n```\n\n### Using In Your Code\nThe forever module exposes some useful methods to use in your code. Each method returns an instance of an EventEmitter which emits when complete. See the [forever cli commands][2] for sample usage.\n\n**Remark:** As of `forever@0.6.0` processes will not automatically be available in `forever.list()`. In order to get your processes into `forever.list()` or `forever list` you must instantiate the `forever` socket server:\n\n``` js\n  forever.startServer(child);\n```\n\nThis method takes multiple `forever.Monitor` instances which are defined in the `forever-monitor` dependency.\n\n#### forever.load (config)\n_Synchronously_ sets the specified configuration (config) for the forever module. There are two important options:\n\nOption    | Description                                       | Default\n-------   | ------------------------------------------------- | ---------\nroot      | Directory to put all default forever log files    | `forever.root`\npidPath   | Directory to put all forever *.pid files          | `[root]/pids`\nsockPath  | Directory for sockets for IPC between workers     | `[root]/sock`\nloglength | Number of logs to return in `forever tail`        | 100\ncolumns   | Array of columns to display when `format` is true | `forever.config.get(\'columns\')`\ndebug     | Boolean value indicating to run in debug mode     | false\nstream    | Boolean value indicating if logs will be streamed | false\n\n#### forever.start (file, options)\nStarts a script with forever. The `options` object is what is expected by the `Monitor` of `forever-monitor`.\n\n#### forever.startDaemon (file, options)\nStarts a script with forever as a daemon. WARNING: Will daemonize the current process. The `options` object is what is expected by the `Monitor` of `forever-monitor`.\n\n#### forever.stop (index)\nStops the forever daemon script at the specified index. These indices are the same as those returned by forever.list(). This method returns an EventEmitter that raises the \'stop\' event when complete.\n\n#### forever.stopAll (format)\nStops all forever scripts currently running. This method returns an EventEmitter that raises the \'stopAll\' event when complete.\n\nThe `format` parameter is a boolean value indicating whether the returned values should be formatted according to the configured columns which can set with `forever columns` or programmatically `forever.config.set(\'columns\')`.\n\n#### forever.list (format, callback)\nReturns a list of metadata objects about each process that is being run using forever. This method will return the list of metadata as such. Only processes which have invoked `forever.startServer()` will be available from `forever.list()`\n\nThe `format` parameter is a boolean value indicating whether the returned values should be formatted according to the configured columns which can set with `forever columns` or programmatically `forever.config.set(\'columns\')`.\n\n#### forever.tail (target, options, callback)\nResponds with the logs from the target script(s) from `tail`. There are two options:\n\n* `length` (numeric): is is used as the `-n` parameter to `tail`.\n* `stream` (boolean): is is used as the `-f` parameter to `tail`.\n\n#### forever.cleanUp ()\nCleans up any extraneous forever *.pid files that are on the target system. This method returns an EventEmitter that raises the \'cleanUp\' event when complete.\n\n#### forever.cleanLogsSync (processes)\nRemoves all log files from the root forever directory that do not belong to current running forever processes. Processes are the value returned from `Monitor.data` in `forever-monitor`.\n\n#### forever.startServer (monitor0, monitor1, ..., monitorN)\nStarts the `forever` HTTP server for communication with the forever CLI. **NOTE:** This will change your `process.title`. This method takes multiple `forever.Monitor` instances which are defined in the `forever-monitor` dependency.\n\n### Logging and output file locations\n\nBy default `forever` places all of the files it needs into `/$HOME/.forever`. If you would like to change that location just set the `FOREVER_ROOT` environment variable when you are running forever:\n\n```\nFOREVER_ROOT=/etc/forever forever start index.js\n```\n\nMake sure that the user running the process has the appropriate privileges to read & write to this directory.\n\n## Run Tests\n\n``` bash\n  $ npm test\n```\n\n#### License: MIT\n#### Author: [Charlie Robbins](https://github.com/indexzero)\n#### Contributors: [Fedor Indutny](https://github.com/indutny), [James Halliday](http://substack.net/), [Charlie McConnell](https://github.com/avianflu), [Maciej Malecki](https://github.com/mmalecki), [John Lancaster](http://jlank.com)\n\n[0]: https://github.com/foreverjs/forever-monitor\n[1]: https://github.com/foreverjs/forever-monitor/tree/master/examples\n[2]: https://github.com/foreverjs/forever/blob/master/lib/forever/cli.js\n',
+37 silly resolved     readmeFilename: 'README.md',
+37 silly resolved     bugs: { url: 'https://github.com/nodejitsu/forever/issues' },
+37 silly resolved     _id: 'forever@0.15.1',
+37 silly resolved     _from: 'forever@' } ]
+38 info install forever@0.15.1 into /usr/local/lib
+39 info installOne forever@0.15.1
+40 verbose from cache /home/martin/.npm/forever/0.15.1/package/package.json
+41 info /usr/local/lib/node_modules/forever unbuild
+42 verbose read json /usr/local/lib/node_modules/forever/package.json
+43 verbose tar unpack /home/martin/.npm/forever/0.15.1/package.tgz
+44 silly lockFile ae9c3f2b-r-local-lib-node-modules-forever /usr/local/lib/node_modules/forever
+45 verbose lock /usr/local/lib/node_modules/forever /home/martin/.npm/ae9c3f2b-r-local-lib-node-modules-forever.lock
+46 silly lockFile e9167483-n-npm-forever-0-15-1-package-tgz /home/martin/.npm/forever/0.15.1/package.tgz
+47 verbose lock /home/martin/.npm/forever/0.15.1/package.tgz /home/martin/.npm/e9167483-n-npm-forever-0-15-1-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm extractEntry .npmignore
+51 silly gunzTarPerm extractEntry README.md
+52 silly gunzTarPerm extractEntry LICENSE
+53 silly gunzTarPerm extractEntry CHANGELOG.md
+54 silly gunzTarPerm extractEntry .jshintrc
+55 silly gunzTarPerm extractEntry .editorconfig
+56 silly gunzTarPerm extractEntry bin/forever
+57 silly gunzTarPerm extractEntry bin/monitor
+58 silly gunzTarPerm extractEntry lib/forever.js
+59 silly gunzTarPerm extractEntry lib/forever/cli.js
+60 silly gunzTarPerm extractEntry lib/forever/worker.js
+61 silly gunzTarPerm extractEntry .travis.yml
+62 silly gunzTarPerm extractEntry test/cli-test
+63 silly gunzTarPerm extractEntry test/core/daemonic-inheritance-test.js
+64 silly gunzTarPerm extractEntry test/core/start-stop-json-array-test.js
+65 silly gunzTarPerm extractEntry test/core/start-stop-json-obj-test.js
+66 silly gunzTarPerm extractEntry test/core/start-stop-relative-test.js
+67 silly gunzTarPerm extractEntry test/core/stopall-peaceful-test.js
+68 silly gunzTarPerm extractEntry test/core/stopbypid-peaceful-test.js
+69 silly gunzTarPerm extractEntry test/core/tail-stopall-test.js
+70 silly gunzTarPerm extractEntry test/fixtures/cluster-fork-mode.js
+71 silly gunzTarPerm extractEntry test/fixtures/log-on-interval.js
+72 silly gunzTarPerm extractEntry test/fixtures/server.js
+73 silly gunzTarPerm extractEntry test/fixtures/start-daemon.js
+74 silly gunzTarPerm extractEntry test/fixtures/server.json
+75 silly gunzTarPerm extractEntry test/fixtures/servers.json
+76 silly gunzTarPerm extractEntry test/helpers/index.js
+77 silly gunzTarPerm extractEntry test/helpers/macros.js
+78 silly gunzTarPerm extractEntry test/helpers/mocks/child-process.js
+79 silly gunzTarPerm extractEntry test/helpers/mocks/monitor.js
+80 silly gunzTarPerm extractEntry test/helpers/mocks/stream.js
+81 silly gunzTarPerm extractEntry test/worker/multiple-workers-test.js
+82 silly gunzTarPerm extractEntry test/worker/simple-test.js
+83 verbose read json /usr/local/lib/node_modules/forever/package.json
+84 silly lockFile ae9c3f2b-r-local-lib-node-modules-forever /usr/local/lib/node_modules/forever
+85 silly lockFile ae9c3f2b-r-local-lib-node-modules-forever /usr/local/lib/node_modules/forever
+86 silly lockFile e9167483-n-npm-forever-0-15-1-package-tgz /home/martin/.npm/forever/0.15.1/package.tgz
+87 silly lockFile e9167483-n-npm-forever-0-15-1-package-tgz /home/martin/.npm/forever/0.15.1/package.tgz
+88 info preinstall forever@0.15.1
+89 verbose from cache /usr/local/lib/node_modules/forever/package.json
+90 verbose readDependencies using package.json deps
+91 verbose from cache /usr/local/lib/node_modules/forever/package.json
+92 verbose readDependencies using package.json deps
+93 verbose cache add [ 'colors@~0.6.2', null ]
+94 verbose cache add name=undefined spec="colors@~0.6.2" args=["colors@~0.6.2",null]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: 'colors@~0.6.2',
+95 verbose parsed url   path: 'colors@~0.6.2',
+95 verbose parsed url   href: 'colors@~0.6.2' }
+96 verbose cache add name="colors" spec="~0.6.2" args=["colors","~0.6.2"]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: '~0.6.2',
+97 verbose parsed url   path: '~0.6.2',
+97 verbose parsed url   href: '~0.6.2' }
+98 verbose addNamed [ 'colors', '~0.6.2' ]
+99 verbose addNamed [ null, '>=0.6.2- <0.7.0-' ]
+100 silly lockFile f2380b4d-colors-0-6-2 colors@~0.6.2
+101 verbose lock colors@~0.6.2 /home/martin/.npm/f2380b4d-colors-0-6-2.lock
+102 verbose cache add [ 'flatiron@~0.4.2', null ]
+103 verbose cache add name=undefined spec="flatiron@~0.4.2" args=["flatiron@~0.4.2",null]
+104 verbose parsed url { protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: 'flatiron@~0.4.2',
+104 verbose parsed url   path: 'flatiron@~0.4.2',
+104 verbose parsed url   href: 'flatiron@~0.4.2' }
+105 verbose cache add name="flatiron" spec="~0.4.2" args=["flatiron","~0.4.2"]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: '~0.4.2',
+106 verbose parsed url   path: '~0.4.2',
+106 verbose parsed url   href: '~0.4.2' }
+107 verbose addNamed [ 'flatiron', '~0.4.2' ]
+108 verbose addNamed [ null, '>=0.4.2- <0.5.0-' ]
+109 silly lockFile 3b4d8e9c-flatiron-0-4-2 flatiron@~0.4.2
+110 verbose lock flatiron@~0.4.2 /home/martin/.npm/3b4d8e9c-flatiron-0-4-2.lock
+111 silly addNameRange { name: 'colors', range: '>=0.6.2- <0.7.0-', hasData: false }
+112 verbose cache add [ 'nconf@~0.6.9', null ]
+113 verbose cache add name=undefined spec="nconf@~0.6.9" args=["nconf@~0.6.9",null]
+114 verbose parsed url { protocol: null,
+114 verbose parsed url   slashes: null,
+114 verbose parsed url   auth: null,
+114 verbose parsed url   host: null,
+114 verbose parsed url   port: null,
+114 verbose parsed url   hostname: null,
+114 verbose parsed url   hash: null,
+114 verbose parsed url   search: null,
+114 verbose parsed url   query: null,
+114 verbose parsed url   pathname: 'nconf@~0.6.9',
+114 verbose parsed url   path: 'nconf@~0.6.9',
+114 verbose parsed url   href: 'nconf@~0.6.9' }
+115 verbose cache add name="nconf" spec="~0.6.9" args=["nconf","~0.6.9"]
+116 verbose parsed url { protocol: null,
+116 verbose parsed url   slashes: null,
+116 verbose parsed url   auth: null,
+116 verbose parsed url   host: null,
+116 verbose parsed url   port: null,
+116 verbose parsed url   hostname: null,
+116 verbose parsed url   hash: null,
+116 verbose parsed url   search: null,
+116 verbose parsed url   query: null,
+116 verbose parsed url   pathname: '~0.6.9',
+116 verbose parsed url   path: '~0.6.9',
+116 verbose parsed url   href: '~0.6.9' }
+117 verbose addNamed [ 'nconf', '~0.6.9' ]
+118 verbose addNamed [ null, '>=0.6.9- <0.7.0-' ]
+119 silly lockFile eb32f077-nconf-0-6-9 nconf@~0.6.9
+120 verbose lock nconf@~0.6.9 /home/martin/.npm/eb32f077-nconf-0-6-9.lock
+121 verbose cache add [ 'forever-monitor@~1.6.0', null ]
+122 verbose cache add name=undefined spec="forever-monitor@~1.6.0" args=["forever-monitor@~1.6.0",null]
+123 verbose parsed url { protocol: null,
+123 verbose parsed url   slashes: null,
+123 verbose parsed url   auth: null,
+123 verbose parsed url   host: null,
+123 verbose parsed url   port: null,
+123 verbose parsed url   hostname: null,
+123 verbose parsed url   hash: null,
+123 verbose parsed url   search: null,
+123 verbose parsed url   query: null,
+123 verbose parsed url   pathname: 'forever-monitor@~1.6.0',
+123 verbose parsed url   path: 'forever-monitor@~1.6.0',
+123 verbose parsed url   href: 'forever-monitor@~1.6.0' }
+124 verbose cache add name="forever-monitor" spec="~1.6.0" args=["forever-monitor","~1.6.0"]
+125 verbose parsed url { protocol: null,
+125 verbose parsed url   slashes: null,
+125 verbose parsed url   auth: null,
+125 verbose parsed url   host: null,
+125 verbose parsed url   port: null,
+125 verbose parsed url   hostname: null,
+125 verbose parsed url   hash: null,
+125 verbose parsed url   search: null,
+125 verbose parsed url   query: null,
+125 verbose parsed url   pathname: '~1.6.0',
+125 verbose parsed url   path: '~1.6.0',
+125 verbose parsed url   href: '~1.6.0' }
+126 verbose addNamed [ 'forever-monitor', '~1.6.0' ]
+127 verbose addNamed [ null, '>=1.6.0- <1.7.0-' ]
+128 silly lockFile d6b1938f-forever-monitor-1-6-0 forever-monitor@~1.6.0
+129 verbose lock forever-monitor@~1.6.0 /home/martin/.npm/d6b1938f-forever-monitor-1-6-0.lock
+130 verbose cache add [ 'nssocket@~0.5.1', null ]
+131 verbose cache add name=undefined spec="nssocket@~0.5.1" args=["nssocket@~0.5.1",null]
+132 verbose parsed url { protocol: null,
+132 verbose parsed url   slashes: null,
+132 verbose parsed url   auth: null,
+132 verbose parsed url   host: null,
+132 verbose parsed url   port: null,
+132 verbose parsed url   hostname: null,
+132 verbose parsed url   hash: null,
+132 verbose parsed url   search: null,
+132 verbose parsed url   query: null,
+132 verbose parsed url   pathname: 'nssocket@~0.5.1',
+132 verbose parsed url   path: 'nssocket@~0.5.1',
+132 verbose parsed url   href: 'nssocket@~0.5.1' }
+133 verbose cache add name="nssocket" spec="~0.5.1" args=["nssocket","~0.5.1"]
+134 verbose parsed url { protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: '~0.5.1',
+134 verbose parsed url   path: '~0.5.1',
+134 verbose parsed url   href: '~0.5.1' }
+135 verbose addNamed [ 'nssocket', '~0.5.1' ]
+136 verbose addNamed [ null, '>=0.5.1- <0.6.0-' ]
+137 silly lockFile 936c2de0-nssocket-0-5-1 nssocket@~0.5.1
+138 verbose lock nssocket@~0.5.1 /home/martin/.npm/936c2de0-nssocket-0-5-1.lock
+139 silly addNameRange { name: 'flatiron', range: '>=0.4.2- <0.5.0-', hasData: false }
+140 silly addNameRange { name: 'nconf', range: '>=0.6.9- <0.7.0-', hasData: false }
+141 silly addNameRange { name: 'forever-monitor',
+141 silly addNameRange   range: '>=1.6.0- <1.7.0-',
+141 silly addNameRange   hasData: false }
+142 verbose cache add [ 'object-assign@^3.0.0', null ]
+143 verbose cache add name=undefined spec="object-assign@^3.0.0" args=["object-assign@^3.0.0",null]
+144 verbose parsed url { protocol: null,
+144 verbose parsed url   slashes: null,
+144 verbose parsed url   auth: null,
+144 verbose parsed url   host: null,
+144 verbose parsed url   port: null,
+144 verbose parsed url   hostname: null,
+144 verbose parsed url   hash: null,
+144 verbose parsed url   search: null,
+144 verbose parsed url   query: null,
+144 verbose parsed url   pathname: 'object-assign@%5E3.0.0',
+144 verbose parsed url   path: 'object-assign@%5E3.0.0',
+144 verbose parsed url   href: 'object-assign@%5E3.0.0' }
+145 verbose cache add name="object-assign" spec="^3.0.0" args=["object-assign","^3.0.0"]
+146 verbose parsed url { protocol: null,
+146 verbose parsed url   slashes: null,
+146 verbose parsed url   auth: null,
+146 verbose parsed url   host: null,
+146 verbose parsed url   port: null,
+146 verbose parsed url   hostname: null,
+146 verbose parsed url   hash: null,
+146 verbose parsed url   search: null,
+146 verbose parsed url   query: null,
+146 verbose parsed url   pathname: '%5E3.0.0',
+146 verbose parsed url   path: '%5E3.0.0',
+146 verbose parsed url   href: '%5E3.0.0' }
+147 verbose addNamed [ 'object-assign', '^3.0.0' ]
+148 verbose addNamed [ null, null ]
+149 silly lockFile 2db6c36a-object-assign-3-0-0 object-assign@^3.0.0
+150 verbose lock object-assign@^3.0.0 /home/martin/.npm/2db6c36a-object-assign-3-0-0.lock
+151 verbose cache add [ 'optimist@~0.6.0', null ]
+152 verbose cache add name=undefined spec="optimist@~0.6.0" args=["optimist@~0.6.0",null]
+153 verbose parsed url { protocol: null,
+153 verbose parsed url   slashes: null,
+153 verbose parsed url   auth: null,
+153 verbose parsed url   host: null,
+153 verbose parsed url   port: null,
+153 verbose parsed url   hostname: null,
+153 verbose parsed url   hash: null,
+153 verbose parsed url   search: null,
+153 verbose parsed url   query: null,
+153 verbose parsed url   pathname: 'optimist@~0.6.0',
+153 verbose parsed url   path: 'optimist@~0.6.0',
+153 verbose parsed url   href: 'optimist@~0.6.0' }
+154 verbose cache add name="optimist" spec="~0.6.0" args=["optimist","~0.6.0"]
+155 verbose parsed url { protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: '~0.6.0',
+155 verbose parsed url   path: '~0.6.0',
+155 verbose parsed url   href: '~0.6.0' }
+156 verbose addNamed [ 'optimist', '~0.6.0' ]
+157 verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+158 silly lockFile 07193858-optimist-0-6-0 optimist@~0.6.0
+159 verbose lock optimist@~0.6.0 /home/martin/.npm/07193858-optimist-0-6-0.lock
+160 verbose cache add [ 'path-is-absolute@~1.0.0', null ]
+161 verbose cache add name=undefined spec="path-is-absolute@~1.0.0" args=["path-is-absolute@~1.0.0",null]
+162 verbose parsed url { protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: 'path-is-absolute@~1.0.0',
+162 verbose parsed url   path: 'path-is-absolute@~1.0.0',
+162 verbose parsed url   href: 'path-is-absolute@~1.0.0' }
+163 verbose cache add name="path-is-absolute" spec="~1.0.0" args=["path-is-absolute","~1.0.0"]
+164 verbose parsed url { protocol: null,
+164 verbose parsed url   slashes: null,
+164 verbose parsed url   auth: null,
+164 verbose parsed url   host: null,
+164 verbose parsed url   port: null,
+164 verbose parsed url   hostname: null,
+164 verbose parsed url   hash: null,
+164 verbose parsed url   search: null,
+164 verbose parsed url   query: null,
+164 verbose parsed url   pathname: '~1.0.0',
+164 verbose parsed url   path: '~1.0.0',
+164 verbose parsed url   href: '~1.0.0' }
+165 verbose addNamed [ 'path-is-absolute', '~1.0.0' ]
+166 verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+167 silly lockFile 6f0121d9-path-is-absolute-1-0-0 path-is-absolute@~1.0.0
+168 verbose lock path-is-absolute@~1.0.0 /home/martin/.npm/6f0121d9-path-is-absolute-1-0-0.lock
+169 verbose cache add [ 'prettyjson@^1.1.2', null ]
+170 verbose cache add name=undefined spec="prettyjson@^1.1.2" args=["prettyjson@^1.1.2",null]
+171 verbose parsed url { protocol: null,
+171 verbose parsed url   slashes: null,
+171 verbose parsed url   auth: null,
+171 verbose parsed url   host: null,
+171 verbose parsed url   port: null,
+171 verbose parsed url   hostname: null,
+171 verbose parsed url   hash: null,
+171 verbose parsed url   search: null,
+171 verbose parsed url   query: null,
+171 verbose parsed url   pathname: 'prettyjson@%5E1.1.2',
+171 verbose parsed url   path: 'prettyjson@%5E1.1.2',
+171 verbose parsed url   href: 'prettyjson@%5E1.1.2' }
+172 verbose cache add name="prettyjson" spec="^1.1.2" args=["prettyjson","^1.1.2"]
+173 verbose parsed url { protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: '%5E1.1.2',
+173 verbose parsed url   path: '%5E1.1.2',
+173 verbose parsed url   href: '%5E1.1.2' }
+174 verbose addNamed [ 'prettyjson', '^1.1.2' ]
+175 verbose addNamed [ null, null ]
+176 silly lockFile c698bb69-prettyjson-1-1-2 prettyjson@^1.1.2
+177 verbose lock prettyjson@^1.1.2 /home/martin/.npm/c698bb69-prettyjson-1-1-2.lock
+178 verbose cache add [ 'shush@^1.0.0', null ]
+179 verbose cache add name=undefined spec="shush@^1.0.0" args=["shush@^1.0.0",null]
+180 verbose parsed url { protocol: null,
+180 verbose parsed url   slashes: null,
+180 verbose parsed url   auth: null,
+180 verbose parsed url   host: null,
+180 verbose parsed url   port: null,
+180 verbose parsed url   hostname: null,
+180 verbose parsed url   hash: null,
+180 verbose parsed url   search: null,
+180 verbose parsed url   query: null,
+180 verbose parsed url   pathname: 'shush@%5E1.0.0',
+180 verbose parsed url   path: 'shush@%5E1.0.0',
+180 verbose parsed url   href: 'shush@%5E1.0.0' }
+181 verbose cache add name="shush" spec="^1.0.0" args=["shush","^1.0.0"]
+182 verbose parsed url { protocol: null,
+182 verbose parsed url   slashes: null,
+182 verbose parsed url   auth: null,
+182 verbose parsed url   host: null,
+182 verbose parsed url   port: null,
+182 verbose parsed url   hostname: null,
+182 verbose parsed url   hash: null,
+182 verbose parsed url   search: null,
+182 verbose parsed url   query: null,
+182 verbose parsed url   pathname: '%5E1.0.0',
+182 verbose parsed url   path: '%5E1.0.0',
+182 verbose parsed url   href: '%5E1.0.0' }
+183 verbose addNamed [ 'shush', '^1.0.0' ]
+184 verbose addNamed [ null, null ]
+185 silly lockFile cfc4fee2-shush-1-0-0 shush@^1.0.0
+186 verbose lock shush@^1.0.0 /home/martin/.npm/cfc4fee2-shush-1-0-0.lock
+187 verbose cache add [ 'timespan@~2.3.0', null ]
+188 verbose cache add name=undefined spec="timespan@~2.3.0" args=["timespan@~2.3.0",null]
+189 verbose parsed url { protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: 'timespan@~2.3.0',
+189 verbose parsed url   path: 'timespan@~2.3.0',
+189 verbose parsed url   href: 'timespan@~2.3.0' }
+190 verbose cache add name="timespan" spec="~2.3.0" args=["timespan","~2.3.0"]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: '~2.3.0',
+191 verbose parsed url   path: '~2.3.0',
+191 verbose parsed url   href: '~2.3.0' }
+192 verbose addNamed [ 'timespan', '~2.3.0' ]
+193 verbose addNamed [ null, '>=2.3.0- <2.4.0-' ]
+194 silly lockFile 572eaef7-timespan-2-3-0 timespan@~2.3.0
+195 verbose lock timespan@~2.3.0 /home/martin/.npm/572eaef7-timespan-2-3-0.lock
+196 verbose cache add [ 'utile@~0.2.1', null ]
+197 verbose cache add name=undefined spec="utile@~0.2.1" args=["utile@~0.2.1",null]
+198 verbose parsed url { protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: 'utile@~0.2.1',
+198 verbose parsed url   path: 'utile@~0.2.1',
+198 verbose parsed url   href: 'utile@~0.2.1' }
+199 verbose cache add name="utile" spec="~0.2.1" args=["utile","~0.2.1"]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: '~0.2.1',
+200 verbose parsed url   path: '~0.2.1',
+200 verbose parsed url   href: '~0.2.1' }
+201 verbose addNamed [ 'utile', '~0.2.1' ]
+202 verbose addNamed [ null, '>=0.2.1- <0.3.0-' ]
+203 silly lockFile 642d3b0d-utile-0-2-1 utile@~0.2.1
+204 verbose lock utile@~0.2.1 /home/martin/.npm/642d3b0d-utile-0-2-1.lock
+205 verbose cache add [ 'winston@~0.8.1', null ]
+206 verbose cache add name=undefined spec="winston@~0.8.1" args=["winston@~0.8.1",null]
+207 verbose parsed url { protocol: null,
+207 verbose parsed url   slashes: null,
+207 verbose parsed url   auth: null,
+207 verbose parsed url   host: null,
+207 verbose parsed url   port: null,
+207 verbose parsed url   hostname: null,
+207 verbose parsed url   hash: null,
+207 verbose parsed url   search: null,
+207 verbose parsed url   query: null,
+207 verbose parsed url   pathname: 'winston@~0.8.1',
+207 verbose parsed url   path: 'winston@~0.8.1',
+207 verbose parsed url   href: 'winston@~0.8.1' }
+208 verbose cache add name="winston" spec="~0.8.1" args=["winston","~0.8.1"]
+209 verbose parsed url { protocol: null,
+209 verbose parsed url   slashes: null,
+209 verbose parsed url   auth: null,
+209 verbose parsed url   host: null,
+209 verbose parsed url   port: null,
+209 verbose parsed url   hostname: null,
+209 verbose parsed url   hash: null,
+209 verbose parsed url   search: null,
+209 verbose parsed url   query: null,
+209 verbose parsed url   pathname: '~0.8.1',
+209 verbose parsed url   path: '~0.8.1',
+209 verbose parsed url   href: '~0.8.1' }
+210 verbose addNamed [ 'winston', '~0.8.1' ]
+211 verbose addNamed [ null, '>=0.8.1- <0.9.0-' ]
+212 silly lockFile 90cdea45-winston-0-8-1 winston@~0.8.1
+213 verbose lock winston@~0.8.1 /home/martin/.npm/90cdea45-winston-0-8-1.lock
+214 verbose cache add [ 'cliff@~0.1.9', null ]
+215 verbose cache add name=undefined spec="cliff@~0.1.9" args=["cliff@~0.1.9",null]
+216 verbose parsed url { protocol: null,
+216 verbose parsed url   slashes: null,
+216 verbose parsed url   auth: null,
+216 verbose parsed url   host: null,
+216 verbose parsed url   port: null,
+216 verbose parsed url   hostname: null,
+216 verbose parsed url   hash: null,
+216 verbose parsed url   search: null,
+216 verbose parsed url   query: null,
+216 verbose parsed url   pathname: 'cliff@~0.1.9',
+216 verbose parsed url   path: 'cliff@~0.1.9',
+216 verbose parsed url   href: 'cliff@~0.1.9' }
+217 verbose cache add name="cliff" spec="~0.1.9" args=["cliff","~0.1.9"]
+218 verbose parsed url { protocol: null,
+218 verbose parsed url   slashes: null,
+218 verbose parsed url   auth: null,
+218 verbose parsed url   host: null,
+218 verbose parsed url   port: null,
+218 verbose parsed url   hostname: null,
+218 verbose parsed url   hash: null,
+218 verbose parsed url   search: null,
+218 verbose parsed url   query: null,
+218 verbose parsed url   pathname: '~0.1.9',
+218 verbose parsed url   path: '~0.1.9',
+218 verbose parsed url   href: '~0.1.9' }
+219 verbose addNamed [ 'cliff', '~0.1.9' ]
+220 verbose addNamed [ null, '>=0.1.9- <0.2.0-' ]
+221 silly lockFile f56c4ca5-cliff-0-1-9 cliff@~0.1.9
+222 verbose lock cliff@~0.1.9 /home/martin/.npm/f56c4ca5-cliff-0-1-9.lock
+223 verbose cache add [ 'clone@^1.0.2', null ]
+224 verbose cache add name=undefined spec="clone@^1.0.2" args=["clone@^1.0.2",null]
+225 verbose parsed url { protocol: null,
+225 verbose parsed url   slashes: null,
+225 verbose parsed url   auth: null,
+225 verbose parsed url   host: null,
+225 verbose parsed url   port: null,
+225 verbose parsed url   hostname: null,
+225 verbose parsed url   hash: null,
+225 verbose parsed url   search: null,
+225 verbose parsed url   query: null,
+225 verbose parsed url   pathname: 'clone@%5E1.0.2',
+225 verbose parsed url   path: 'clone@%5E1.0.2',
+225 verbose parsed url   href: 'clone@%5E1.0.2' }
+226 verbose cache add name="clone" spec="^1.0.2" args=["clone","^1.0.2"]
+227 verbose parsed url { protocol: null,
+227 verbose parsed url   slashes: null,
+227 verbose parsed url   auth: null,
+227 verbose parsed url   host: null,
+227 verbose parsed url   port: null,
+227 verbose parsed url   hostname: null,
+227 verbose parsed url   hash: null,
+227 verbose parsed url   search: null,
+227 verbose parsed url   query: null,
+227 verbose parsed url   pathname: '%5E1.0.2',
+227 verbose parsed url   path: '%5E1.0.2',
+227 verbose parsed url   href: '%5E1.0.2' }
+228 verbose addNamed [ 'clone', '^1.0.2' ]
+229 verbose addNamed [ null, null ]
+230 silly lockFile 17f7a866-clone-1-0-2 clone@^1.0.2
+231 verbose lock clone@^1.0.2 /home/martin/.npm/17f7a866-clone-1-0-2.lock
+232 silly addNameRange { name: 'nssocket', range: '>=0.5.1- <0.6.0-', hasData: false }
+233 info addNameTag [ 'object-assign', '^3.0.0' ]
+234 silly addNameRange { name: 'optimist', range: '>=0.6.0- <0.7.0-', hasData: false }
+235 silly addNameRange { name: 'path-is-absolute',
+235 silly addNameRange   range: '>=1.0.0- <1.1.0-',
+235 silly addNameRange   hasData: false }
+236 info addNameTag [ 'prettyjson', '^1.1.2' ]
+237 info addNameTag [ 'shush', '^1.0.0' ]
+238 silly addNameRange { name: 'timespan', range: '>=2.3.0- <2.4.0-', hasData: false }
+239 silly addNameRange { name: 'utile', range: '>=0.2.1- <0.3.0-', hasData: false }
+240 silly addNameRange { name: 'winston', range: '>=0.8.1- <0.9.0-', hasData: false }
+241 silly addNameRange { name: 'cliff', range: '>=0.1.9- <0.2.0-', hasData: false }
+242 info addNameTag [ 'clone', '^1.0.2' ]
+243 verbose url raw colors
+244 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+245 verbose url resolved https://registry.npmjs.org/colors
+246 info trying registry request attempt 1 at 10:14:54
+247 verbose etag "4LRHFSIRCXH9PYDDO855NBRBU"
+248 http GET https://registry.npmjs.org/colors
+249 verbose url raw object-assign
+250 verbose url resolving [ 'https://registry.npmjs.org/', './object-assign' ]
+251 verbose url resolved https://registry.npmjs.org/object-assign
+252 info trying registry request attempt 1 at 10:14:54
+253 verbose etag "637E3HK1HW04QPOIQATJZU8ID"
+254 http GET https://registry.npmjs.org/object-assign
+255 verbose url raw forever-monitor
+256 verbose url resolving [ 'https://registry.npmjs.org/', './forever-monitor' ]
+257 verbose url resolved https://registry.npmjs.org/forever-monitor
+258 info trying registry request attempt 1 at 10:14:54
+259 verbose etag "9B55K2DA05IX0VC7LUDAL7HRT"
+260 http GET https://registry.npmjs.org/forever-monitor
+261 verbose url raw path-is-absolute
+262 verbose url resolving [ 'https://registry.npmjs.org/', './path-is-absolute' ]
+263 verbose url resolved https://registry.npmjs.org/path-is-absolute
+264 info trying registry request attempt 1 at 10:14:54
+265 verbose etag "28JNKEBCL0V9HRWV1FZK3S0HB"
+266 http GET https://registry.npmjs.org/path-is-absolute
+267 verbose url raw nconf
+268 verbose url resolving [ 'https://registry.npmjs.org/', './nconf' ]
+269 verbose url resolved https://registry.npmjs.org/nconf
+270 info trying registry request attempt 1 at 10:14:54
+271 verbose etag "D1FSR57JG80IFTYEGBO9NZPC4"
+272 http GET https://registry.npmjs.org/nconf
+273 verbose url raw optimist
+274 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+275 verbose url resolved https://registry.npmjs.org/optimist
+276 info trying registry request attempt 1 at 10:14:54
+277 verbose etag "5WV7ZVC4062GINLNCRBLXCDL4"
+278 http GET https://registry.npmjs.org/optimist
+279 verbose url raw utile
+280 verbose url resolving [ 'https://registry.npmjs.org/', './utile' ]
+281 verbose url resolved https://registry.npmjs.org/utile
+282 info trying registry request attempt 1 at 10:14:54
+283 verbose etag "5IDF99MQQJXUZCEETQV690HOD"
+284 http GET https://registry.npmjs.org/utile
+285 verbose url raw flatiron
+286 verbose url resolving [ 'https://registry.npmjs.org/', './flatiron' ]
+287 verbose url resolved https://registry.npmjs.org/flatiron
+288 info trying registry request attempt 1 at 10:14:54
+289 verbose etag "4SBL47U1BZA8FP957KSEJ8APC"
+290 http GET https://registry.npmjs.org/flatiron
+291 verbose url raw shush
+292 verbose url resolving [ 'https://registry.npmjs.org/', './shush' ]
+293 verbose url resolved https://registry.npmjs.org/shush
+294 info trying registry request attempt 1 at 10:14:54
+295 verbose etag "98V5K3X5KTQXC0ZFN08PPJKFY"
+296 http GET https://registry.npmjs.org/shush
+297 verbose url raw timespan
+298 verbose url resolving [ 'https://registry.npmjs.org/', './timespan' ]
+299 verbose url resolved https://registry.npmjs.org/timespan
+300 info trying registry request attempt 1 at 10:14:54
+301 verbose etag "4CXNHOGON1P7A60NH50X50LN4"
+302 http GET https://registry.npmjs.org/timespan
+303 verbose url raw cliff
+304 verbose url resolving [ 'https://registry.npmjs.org/', './cliff' ]
+305 verbose url resolved https://registry.npmjs.org/cliff
+306 info trying registry request attempt 1 at 10:14:54
+307 verbose etag "D5Y8ZQILI3T1HEE5HWE09U9U2"
+308 http GET https://registry.npmjs.org/cliff
+309 verbose url raw nssocket
+310 verbose url resolving [ 'https://registry.npmjs.org/', './nssocket' ]
+311 verbose url resolved https://registry.npmjs.org/nssocket
+312 info trying registry request attempt 1 at 10:14:54
+313 verbose etag "EUOQOQUWSYQ17CSGHLMS5JDA7"
+314 http GET https://registry.npmjs.org/nssocket
+315 verbose url raw winston
+316 verbose url resolving [ 'https://registry.npmjs.org/', './winston' ]
+317 verbose url resolved https://registry.npmjs.org/winston
+318 info trying registry request attempt 1 at 10:14:55
+319 verbose etag "5J5LLVUQA0WW214LQX5P8V51I"
+320 http GET https://registry.npmjs.org/winston
+321 verbose url raw prettyjson
+322 verbose url resolving [ 'https://registry.npmjs.org/', './prettyjson' ]
+323 verbose url resolved https://registry.npmjs.org/prettyjson
+324 info trying registry request attempt 1 at 10:14:55
+325 verbose etag "F3LEA36TW6O6YY4LZ3N7G0GW6"
+326 http GET https://registry.npmjs.org/prettyjson
+327 verbose url raw clone
+328 verbose url resolving [ 'https://registry.npmjs.org/', './clone' ]
+329 verbose url resolved https://registry.npmjs.org/clone
+330 info trying registry request attempt 1 at 10:14:55
+331 verbose etag "9RKA1SAUCD7N4XO45MXFEIJOI"
+332 http GET https://registry.npmjs.org/clone
+333 http 304 https://registry.npmjs.org/path-is-absolute
+334 silly registry.get cb [ 304,
+334 silly registry.get   { date: 'Thu, 29 Oct 2015 02:18:57 GMT',
+334 silly registry.get     via: '1.1 varnish',
+334 silly registry.get     'cache-control': 'max-age=60',
+334 silly registry.get     etag: '"28JNKEBCL0V9HRWV1FZK3S0HB"',
+334 silly registry.get     age: '51',
+334 silly registry.get     connection: 'keep-alive',
+334 silly registry.get     'x-served-by': 'cache-itm7421-ITM',
+334 silly registry.get     'x-cache': 'HIT',
+334 silly registry.get     'x-cache-hits': '43',
+334 silly registry.get     'x-timer': 'S1446085137.545939,VS0,VE0',
+334 silly registry.get     vary: 'Accept' } ]
+335 verbose etag path-is-absolute from cache
+336 http 200 https://registry.npmjs.org/colors
+337 silly registry.get cb [ 200,
+337 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+337 silly registry.get     etag: '"77NGXZUTUEBTVLH5DCM2Z1DCY"',
+337 silly registry.get     'content-type': 'application/json',
+337 silly registry.get     'cache-control': 'max-age=60',
+337 silly registry.get     'content-length': '20133',
+337 silly registry.get     'accept-ranges': 'bytes',
+337 silly registry.get     date: 'Thu, 29 Oct 2015 02:18:57 GMT',
+337 silly registry.get     via: '1.1 varnish',
+337 silly registry.get     age: '30',
+337 silly registry.get     connection: 'keep-alive',
+337 silly registry.get     'x-served-by': 'cache-itm7424-ITM',
+337 silly registry.get     'x-cache': 'HIT',
+337 silly registry.get     'x-cache-hits': '24',
+337 silly registry.get     'x-timer': 'S1446085137.462854,VS0,VE0',
+337 silly registry.get     vary: 'Accept' } ]
+338 silly addNameRange number 2 { name: 'path-is-absolute',
+338 silly addNameRange   range: '>=1.0.0- <1.1.0-',
+338 silly addNameRange   hasData: true }
+339 silly addNameRange versions [ 'path-is-absolute', [ '1.0.0' ] ]
+340 verbose addNamed [ 'path-is-absolute', '1.0.0' ]
+341 verbose addNamed [ '1.0.0', '1.0.0' ]
+342 silly lockFile b525007d-path-is-absolute-1-0-0 path-is-absolute@1.0.0
+343 verbose lock path-is-absolute@1.0.0 /home/martin/.npm/b525007d-path-is-absolute-1-0-0.lock
+344 silly addNameRange number 2 { name: 'colors', range: '>=0.6.2- <0.7.0-', hasData: true }
+345 silly addNameRange versions [ 'colors',
+345 silly addNameRange   [ '0.3.0',
+345 silly addNameRange     '0.5.0',
+345 silly addNameRange     '0.5.1',
+345 silly addNameRange     '0.6.0',
+345 silly addNameRange     '0.6.0-1',
+345 silly addNameRange     '0.6.1',
+345 silly addNameRange     '0.6.2',
+345 silly addNameRange     '1.0.0',
+345 silly addNameRange     '1.0.1',
+345 silly addNameRange     '1.0.2',
+345 silly addNameRange     '1.0.3',
+345 silly addNameRange     '1.1.0',
+345 silly addNameRange     '1.1.1',
+345 silly addNameRange     '1.1.2' ] ]
+346 verbose addNamed [ 'colors', '0.6.2' ]
+347 verbose addNamed [ '0.6.2', '0.6.2' ]
+348 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+349 verbose lock colors@0.6.2 /home/martin/.npm/1ce149d5-colors-0-6-2.lock
+350 verbose read json /home/martin/.npm/path-is-absolute/1.0.0/package/package.json
+351 verbose read json /home/martin/.npm/colors/0.6.2/package/package.json
+352 silly lockFile b525007d-path-is-absolute-1-0-0 path-is-absolute@1.0.0
+353 silly lockFile b525007d-path-is-absolute-1-0-0 path-is-absolute@1.0.0
+354 http 304 https://registry.npmjs.org/optimist
+355 silly registry.get cb [ 304,
+355 silly registry.get   { date: 'Thu, 29 Oct 2015 02:18:57 GMT',
+355 silly registry.get     via: '1.1 varnish',
+355 silly registry.get     'cache-control': 'max-age=60',
+355 silly registry.get     etag: '"5WV7ZVC4062GINLNCRBLXCDL4"',
+355 silly registry.get     age: '31',
+355 silly registry.get     connection: 'keep-alive',
+355 silly registry.get     'x-served-by': 'cache-itm7421-ITM',
+355 silly registry.get     'x-cache': 'HIT',
+355 silly registry.get     'x-cache-hits': '3',
+355 silly registry.get     'x-timer': 'S1446085137.640571,VS0,VE0',
+355 silly registry.get     vary: 'Accept' } ]
+356 verbose etag optimist from cache
+357 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+358 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+359 silly lockFile 6f0121d9-path-is-absolute-1-0-0 path-is-absolute@~1.0.0
+360 silly lockFile 6f0121d9-path-is-absolute-1-0-0 path-is-absolute@~1.0.0
+361 silly lockFile f2380b4d-colors-0-6-2 colors@~0.6.2
+362 silly lockFile f2380b4d-colors-0-6-2 colors@~0.6.2
+363 silly addNameRange number 2 { name: 'optimist', range: '>=0.6.0- <0.7.0-', hasData: true }
+364 silly addNameRange versions [ 'optimist',
+364 silly addNameRange   [ '0.0.1',
+364 silly addNameRange     '0.0.2',
+364 silly addNameRange     '0.0.4',
+364 silly addNameRange     '0.0.5',
+364 silly addNameRange     '0.0.6',
+364 silly addNameRange     '0.0.7',
+364 silly addNameRange     '0.1.0',
+364 silly addNameRange     '0.1.1',
+364 silly addNameRange     '0.1.2',
+364 silly addNameRange     '0.1.3',
+364 silly addNameRange     '0.1.4',
+364 silly addNameRange     '0.1.5',
+364 silly addNameRange     '0.1.6',
+364 silly addNameRange     '0.1.7',
+364 silly addNameRange     '0.1.8',
+364 silly addNameRange     '0.1.9',
+364 silly addNameRange     '0.0.3',
+364 silly addNameRange     '0.2.0',
+364 silly addNameRange     '0.2.1',
+364 silly addNameRange     '0.2.2',
+364 silly addNameRange     '0.2.3',
+364 silly addNameRange     '0.2.4',
+364 silly addNameRange     '0.2.5',
+364 silly addNameRange     '0.2.6',
+364 silly addNameRange     '0.2.7',
+364 silly addNameRange     '0.2.8',
+364 silly addNameRange     '0.3.0',
+364 silly addNameRange     '0.3.1',
+364 silly addNameRange     '0.3.3',
+364 silly addNameRange     '0.3.4',
+364 silly addNameRange     '0.3.5',
+364 silly addNameRange     '0.3.6',
+364 silly addNameRange     '0.3.7',
+364 silly addNameRange     '0.4.0',
+364 silly addNameRange     '0.5.0',
+364 silly addNameRange     '0.5.1',
+364 silly addNameRange     '0.5.2',
+364 silly addNameRange     '0.6.0',
+364 silly addNameRange     '0.6.1' ] ]
+365 verbose addNamed [ 'optimist', '0.6.1' ]
+366 verbose addNamed [ '0.6.1', '0.6.1' ]
+367 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+368 verbose lock optimist@0.6.1 /home/martin/.npm/0fc74eb8-optimist-0-6-1.lock
+369 verbose read json /home/martin/.npm/optimist/0.6.1/package/package.json
+370 http 304 https://registry.npmjs.org/nconf
+371 silly registry.get cb [ 304,
+371 silly registry.get   { date: 'Thu, 29 Oct 2015 02:18:57 GMT',
+371 silly registry.get     via: '1.1 varnish',
+371 silly registry.get     'cache-control': 'max-age=60',
+371 silly registry.get     etag: '"D1FSR57JG80IFTYEGBO9NZPC4"',
+371 silly registry.get     age: '0',
+371 silly registry.get     connection: 'keep-alive',
+371 silly registry.get     'x-served-by': 'cache-itm7426-ITM',
+371 silly registry.get     'x-cache': 'HIT',
+371 silly registry.get     'x-cache-hits': '1',
+371 silly registry.get     'x-timer': 'S1446085137.520579,VS0,VE142',
+371 silly registry.get     vary: 'Accept' } ]
+372 verbose etag nconf from cache
+373 http 304 https://registry.npmjs.org/object-assign
+374 silly registry.get cb [ 304,
+374 silly registry.get   { date: 'Thu, 29 Oct 2015 02:18:57 GMT',
+374 silly registry.get     via: '1.1 varnish',
+374 silly registry.get     'cache-control': 'max-age=60',
+374 silly registry.get     etag: '"637E3HK1HW04QPOIQATJZU8ID"',
+374 silly registry.get     age: '0',
+374 silly registry.get     connection: 'keep-alive',
+374 silly registry.get     'x-served-by': 'cache-itm7426-ITM',
+374 silly registry.get     'x-cache': 'HIT',
+374 silly registry.get     'x-cache-hits': '1',
+374 silly registry.get     'x-timer': 'S1446085137.531255,VS0,VE144',
+374 silly registry.get     vary: 'Accept' } ]
+375 verbose etag object-assign from cache
+376 silly addNameRange number 2 { name: 'nconf', range: '>=0.6.9- <0.7.0-', hasData: true }
+377 silly addNameRange versions [ 'nconf',
+377 silly addNameRange   [ '0.1.14',
+377 silly addNameRange     '0.2.0',
+377 silly addNameRange     '0.3.1',
+377 silly addNameRange     '0.4.3',
+377 silly addNameRange     '0.4.4',
+377 silly addNameRange     '0.4.5',
+377 silly addNameRange     '0.4.6',
+377 silly addNameRange     '0.5.0',
+377 silly addNameRange     '0.5.1',
+377 silly addNameRange     '0.6.0',
+377 silly addNameRange     '0.6.1',
+377 silly addNameRange     '0.6.3',
+377 silly addNameRange     '0.6.4',
+377 silly addNameRange     '0.6.5',
+377 silly addNameRange     '0.6.6',
+377 silly addNameRange     '0.6.7',
+377 silly addNameRange     '0.6.8',
+377 silly addNameRange     '0.6.9',
+377 silly addNameRange     '0.7.0',
+377 silly addNameRange     '0.7.1',
+377 silly addNameRange     '0.7.2',
+377 silly addNameRange     '0.8.0',
+377 silly addNameRange     '0.8.1',
+377 silly addNameRange     '0.8.2' ] ]
+378 verbose addNamed [ 'nconf', '0.6.9' ]
+379 verbose addNamed [ '0.6.9', '0.6.9' ]
+380 silly lockFile 66fbcb14-nconf-0-6-9 nconf@0.6.9
+381 verbose lock nconf@0.6.9 /home/martin/.npm/66fbcb14-nconf-0-6-9.lock
+382 silly lockFile 2db6c36a-object-assign-3-0-0 object-assign@^3.0.0
+383 silly lockFile 2db6c36a-object-assign-3-0-0 object-assign@^3.0.0
+384 verbose read json /home/martin/.npm/nconf/0.6.9/package/package.json
+385 verbose about to build /usr/local/lib/node_modules/forever
+386 info /usr/local/lib/node_modules/forever unbuild
+387 verbose from cache /usr/local/lib/node_modules/forever/package.json
+388 info preuninstall forever@0.15.1
+389 info uninstall forever@0.15.1
+390 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+391 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+392 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild forever@0.15.1
+393 verbose /usr/local/bin,[object Object] binRoot
+394 silly lockFile 07193858-optimist-0-6-0 optimist@~0.6.0
+395 silly lockFile 07193858-optimist-0-6-0 optimist@~0.6.0
+396 info postuninstall forever@0.15.1
+397 http 304 https://registry.npmjs.org/utile
+398 silly registry.get cb [ 304,
+398 silly registry.get   { date: 'Thu, 29 Oct 2015 02:18:57 GMT',
+398 silly registry.get     via: '1.1 varnish',
+398 silly registry.get     'cache-control': 'max-age=60',
+398 silly registry.get     etag: '"5IDF99MQQJXUZCEETQV690HOD"',
+398 silly registry.get     age: '0',
+398 silly registry.get     connection: 'keep-alive',
+398 silly registry.get     'x-served-by': 'cache-itm7424-ITM',
+398 silly registry.get     'x-cache': 'HIT',
+398 silly registry.get     'x-cache-hits': '1',
+398 silly registry.get     'x-timer': 'S1446085137.661537,VS0,VE134',
+398 silly registry.get     vary: 'Accept' } ]
+399 verbose etag utile from cache
+400 silly lockFile 66fbcb14-nconf-0-6-9 nconf@0.6.9
+401 silly lockFile 66fbcb14-nconf-0-6-9 nconf@0.6.9
+402 silly lockFile eb32f077-nconf-0-6-9 nconf@~0.6.9
+403 silly lockFile eb32f077-nconf-0-6-9 nconf@~0.6.9
+404 http 304 https://registry.npmjs.org/timespan
+405 silly registry.get cb [ 304,
+405 silly registry.get   { date: 'Thu, 29 Oct 2015 02:18:57 GMT',
+405 silly registry.get     via: '1.1 varnish',
+405 silly registry.get     'cache-control': 'max-age=60',
+405 silly registry.get     etag: '"4CXNHOGON1P7A60NH50X50LN4"',
+405 silly registry.get     age: '0',
+405 silly registry.get     connection: 'keep-alive',
+405 silly registry.get     'x-served-by': 'cache-itm7426-ITM',
+405 silly registry.get     'x-cache': 'HIT',
+405 silly registry.get     'x-cache-hits': '1',
+405 silly registry.get     'x-timer': 'S1446085137.782223,VS0,VE211',
+405 silly registry.get     vary: 'Accept' } ]
+406 verbose etag timespan from cache
+407 http 304 https://registry.npmjs.org/forever-monitor
+408 silly registry.get cb [ 304,
+408 silly registry.get   { date: 'Thu, 29 Oct 2015 02:18:57 GMT',
+408 silly registry.get     via: '1.1 varnish',
+408 silly registry.get     'cache-control': 'max-age=60',
+408 silly registry.get     etag: '"9B55K2DA05IX0VC7LUDAL7HRT"',
+408 silly registry.get     age: '0',
+408 silly registry.get     connection: 'keep-alive',
+408 silly registry.get     'x-served-by': 'cache-itm7426-ITM',
+408 silly registry.get     'x-cache': 'HIT',
+408 silly registry.get     'x-cache-hits': '1',
+408 silly registry.get     'x-timer': 'S1446085137.515101,VS0,VE529',
+408 silly registry.get     vary: 'Accept' } ]
+409 verbose etag forever-monitor from cache
+410 http 304 https://registry.npmjs.org/cliff
+411 silly registry.get cb [ 304,
+411 silly registry.get   { date: 'Thu, 29 Oct 2015 02:18:57 GMT',
+411 silly registry.get     via: '1.1 varnish',
+411 silly registry.get     'cache-control': 'max-age=60',
+411 silly registry.get     etag: '"D5Y8ZQILI3T1HEE5HWE09U9U2"',
+411 silly registry.get     age: '0',
+411 silly registry.get     connection: 'keep-alive',
+411 silly registry.get     'x-served-by': 'cache-itm7424-ITM',
+411 silly registry.get     'x-cache': 'HIT',
+411 silly registry.get     'x-cache-hits': '1',
+411 silly registry.get     'x-timer': 'S1446085137.895023,VS0,VE199',
+411 silly registry.get     vary: 'Accept' } ]
+412 verbose etag cliff from cache
+413 silly addNameRange number 2 { name: 'utile', range: '>=0.2.1- <0.3.0-', hasData: true }
+414 silly addNameRange versions [ 'utile',
+414 silly addNameRange   [ '0.0.1',
+414 silly addNameRange     '0.0.2',
+414 silly addNameRange     '0.0.3',
+414 silly addNameRange     '0.0.4',
+414 silly addNameRange     '0.0.5',
+414 silly addNameRange     '0.0.6',
+414 silly addNameRange     '0.0.8',
+414 silly addNameRange     '0.0.9',
+414 silly addNameRange     '0.0.10',
+414 silly addNameRange     '0.1.0',
+414 silly addNameRange     '0.1.1',
+414 silly addNameRange     '0.1.2',
+414 silly addNameRange     '0.1.3',
+414 silly addNameRange     '0.1.5',
+414 silly addNameRange     '0.1.6',
+414 silly addNameRange     '0.1.7',
+414 silly addNameRange     '0.2.0',
+414 silly addNameRange     '0.2.1',
+414 silly addNameRange     '0.3.0' ] ]
+415 verbose addNamed [ 'utile', '0.2.1' ]
+416 verbose addNamed [ '0.2.1', '0.2.1' ]
+417 silly lockFile 4b19b9b2-utile-0-2-1 utile@0.2.1
+418 verbose lock utile@0.2.1 /home/martin/.npm/4b19b9b2-utile-0-2-1.lock
+419 verbose read json /home/martin/.npm/utile/0.2.1/package/package.json
+420 error Error: No compatible version found: object-assign@'^3.0.0'
+420 error Valid install targets:
+420 error ["0.1.0","0.1.1","0.1.2","0.2.0","0.2.1","0.2.2","0.3.0","0.3.1","0.4.0","1.0.0","2.0.0","3.0.0","2.1.1","4.0.0","4.0.1"]
+420 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:709:10)
+420 error     at /usr/local/lib/node_modules/npm/lib/cache.js:631:10
+420 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+420 error     at Object.oncomplete (fs.js:94:15)
+421 error If you need help, you may report this log at:
+421 error     <http://github.com/isaacs/npm/issues>
+421 error or email it to:
+421 error     <npm-@googlegroups.com>
+422 error System Linux 3.19.0-18-generic
+423 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "forever" "-g"
+424 error cwd /var/www/jms
+425 error node -v v0.11.2
+426 error npm -v 1.2.21
+427 verbose exit [ 1, true ]

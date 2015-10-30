@@ -55,6 +55,8 @@ html,body{ margin: 0;
 	overflow: hidden;
 	border-bottom: 1px solid #bbb;
 	background: #eee;
+	position: fixed;
+	top: 0
 }
 	.welcome-list .head-logo
 	{
@@ -89,7 +91,7 @@ html,body{ margin: 0;
 
 #journal-list
 {
-	margin: 30px 0 0 200px;
+	margin: 90px 0 0 200px;
 	width: 900px;
 	height: 500px;
 }
