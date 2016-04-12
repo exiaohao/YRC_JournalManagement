@@ -16,6 +16,7 @@ app.get('/', function (req, res) {
 });
 
 connection.connect();
+
 app.get('/queryJournal/:queries',function(req,res){
 	//connection.connect();
 	var queries = req.params.queries;
